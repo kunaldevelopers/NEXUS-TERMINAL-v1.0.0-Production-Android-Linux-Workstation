@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Android build outputs & local environment
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/local.properties
+*.apk
+*.aab
+
+# Native build temporary objects (keep jniLibs/arm64-v8a prebuilts safe)
+native-build/obj-arm64/
+native-build/*.tar.gz
+native-build/proot-*/
+native-build/talloc-*/
+

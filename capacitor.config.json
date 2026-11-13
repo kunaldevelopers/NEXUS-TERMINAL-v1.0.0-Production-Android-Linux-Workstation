@@ -1,0 +1,16 @@
+{
+  "appId": "com.nexusterminal.app",
+  "appName": "NEXUS TERMINAL",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": ["*"]
+  },
+  "android": {
+    "backgroundColor": "#080C14",
+    "allowMixedContent": true,
+    "captureInput": false,
+    "webContentsDebuggingEnabled": true
+  }
+}
+
